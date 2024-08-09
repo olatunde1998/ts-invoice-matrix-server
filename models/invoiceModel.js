@@ -15,7 +15,7 @@ const invoiceSchema = mongoose.Schema(
     },
     amount: {
       type: String,
-      required: [true, "Amount is required"],
+      required: [true, "Please enter Amount is required"],
     },
     status: {
       type: String,
