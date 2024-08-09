@@ -8,7 +8,7 @@ const cors = require("cors");
 const app = express();
 
 const MONGO_URL = process.env.MONGO_URL;
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const FRONTEND = process.env.FRONTEND;
 
 var corsOptions = {
