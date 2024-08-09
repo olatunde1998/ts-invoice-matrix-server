@@ -13,7 +13,7 @@ const FRONTEND = process.env.FRONTEND;
 
 var corsOptions = {
   origin: [
-    "https://travel-manager-app.vercel.app",
+    "https://ts-invoice-matrix.vercel.app",
     "http://localhost:3000",
     "http://localhost:3001",
     FRONTEND,
