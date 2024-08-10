@@ -10,19 +10,19 @@ const {
 
 const router = express.Router();
 
-// create client
+// create invoice
 router.post("/", createInvoice);
 
-//fetch all product
+//fetch all invoice
 router.get("/", getInvoices);
 
-//fetch a single client
+//fetch a single invoice
 router.get("/:id", getInvoice);
 
-//Update a client
+//Update a invoice
 router.put("/:id", updateInvoice);
 
-//Delete a client
+//Delete a invoice
 router.delete("/:id", deleteInvoice);
 
 module.exports = router;
