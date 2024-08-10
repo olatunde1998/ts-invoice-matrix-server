@@ -1,9 +1,0 @@
-{
-  "version": "1",
-  "name": "TS-SALES-INVOICE",
-  "type": "collection",
-  "ignore": [
-    "node_modules",
-    ".git"
-  ]
-}
