@@ -2,6 +2,7 @@ const express = require("express");
 
 const {
   createClient,
+  loginClient,
   getClients,
   getClient,
   updateClient,
@@ -10,8 +11,11 @@ const {
 
 const router = express.Router();
 
-// create client
+// Register/create client
 router.post("/", createClient);
+
+// Login a client
+router.post("/login", loginClient);
 
 //fetch all product
 router.get("/", getClients);
