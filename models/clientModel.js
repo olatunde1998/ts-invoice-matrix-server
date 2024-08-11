@@ -12,6 +12,7 @@ const clientSchema = mongoose.Schema(
     email: {
       type: String,
       required: [true, "Please enter email"],
+      unique: true,
     },
     password: {
       type: String,
