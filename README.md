@@ -19,6 +19,9 @@
 - [PostMan](https://www.postman.com/)
 - [Docker](https://www.docker.com/)
 
+# Prototype
+![Minion](assets/prototype.png)
+
 # How to Contribute
 
 1. Clone the repository
