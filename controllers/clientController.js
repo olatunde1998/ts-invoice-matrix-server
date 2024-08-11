@@ -44,7 +44,7 @@ const createClient = asyncHandler(async (req, res) => {
      //Check if email exist in database
     const checkEmail = await Client.findOne({ email })
     if(checkEmail){
-      return res.status(401).json({error: "Email Already exist"})
+      return res.status(401).json({message: "Email Already exist"})
     }
     //Hash user password
     const hashedPassword = await bcrypt.hash(password, 10)
