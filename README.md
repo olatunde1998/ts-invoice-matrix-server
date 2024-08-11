@@ -17,7 +17,7 @@
 - [Express](https://expressjs.com/)
 - [Mongoose](https://www.npmjs.com/package/mongoose)
 - [PostMan](https://www.postman.com/)
-- [Insomia](https://insomnia.rest/download)
+- [Docker](https://www.docker.com/)
 
 # How to Contribute
 
